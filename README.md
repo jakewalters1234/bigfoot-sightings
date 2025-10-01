@@ -1,5 +1,11 @@
 # bigfoot-sightings
 
+
+This file has changed now!
+
+this file has been changed
+
+
 this file has changed now! 
 
 this file has been changed
@@ -16,6 +22,9 @@ Im editing lol
 all good
 
 
+this is sups distinct
+
+
 stop it now. 
 
 
@@ -26,4 +35,6 @@ guys this is mad confusing we gotta stop pushing all the time
 
 this is silly. this needs to stop. 
 
-so who wants the open hearing tea????
+trying so hard
+
+so who wants the open hearing tea???
