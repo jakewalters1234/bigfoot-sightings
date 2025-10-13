@@ -16,13 +16,15 @@ function(input, output) {
 
       kept_words <- sapply( 1:nrow(bigfoot_data),
                             function(n) {
-                              words <- str_split(bigfoot_data$observed[n], "\\s")
-                              paste( words[ !words %in% removed_words])
+                              words <- str_split(bigfoot_data$observed[n], "\\s")[[1]]
+                              words <- tolower(words)
+                              words <- gsub(".", "", words, fixed = TRUE)
+                              paste( words[ !words %in% removed_words], collapse = " ")
                             })
   
     
     
     wordcloud(kept_words, max.words = 10)
-  }, height = 600)
+  }, height = 480)
 }
 
