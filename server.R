@@ -1,4 +1,4 @@
-bfro_reports_geocoded_9_29 <- read.csv("~/bigfoot-sightings/bfro_reports_geocoded_9_29.csv")
+bfro_reports_geocoded_9_29 <- read.csv("~/bigfoot_data.csv")
 
 library(wordcloud)
 library(tm)
