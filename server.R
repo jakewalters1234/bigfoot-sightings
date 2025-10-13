@@ -6,11 +6,23 @@ library(memoise)
 library(tidyverse)
 library(stringr)
 
+
+
+
 function(input, output) {
   output$WordCloud <- renderPlot({
-    wordcloud(bigfoot_data$observed)
-  })
+    
+      removed_words <- c("like", "the", "also", "didnt", "there", "got", "this")
+
+      kept_words <- sapply( 1:nrow(bigfoot_data),
+                            function(n) {
+                              words <- str_split(bigfoot_data$observed[n], "\\s")
+                              paste( words[ !words %in% removed_words])
+                            })
+  
+    
+    
+    wordcloud(kept_words, max.words = 10)
+  }, height = 600)
 }
 
-
-#End of function for word cloud

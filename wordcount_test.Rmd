@@ -35,10 +35,17 @@ print(bigfoot_data_wordcount_filtered_less_200)
 write.csv(bigfoot_data_wordcount_filtered_less_200, "bigfoot_data_wordcount_filtered_less_200.csv")
 ```
 
+```{r }
+removed_words <- c("like", "the", "also", "didnt", "there", "got", "this")
+```
 
 
+```{r }
+str_split(removed_words, ", " )
 
+split <- str_split(removed_words, ", " )
 
+```
 
 
 
