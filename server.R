@@ -12,7 +12,7 @@ library(stringr)
 function(input, output) {
   output$WordCloud <- renderPlot({
     
-      removed_words <- c("like", "the", "also", "didnt", "there", "got", "this")
+      removed_words <- c("like", "the", "also", "didnt", "there", "got", "this", "just", "didnt")
 
       kept_words <- sapply( 1:nrow(bigfoot_data),
                             function(n) {
@@ -24,7 +24,10 @@ function(input, output) {
   
     
     
-    wordcloud(kept_words, max.words = 10)
+    wordcloud(kept_words, 
+              colors = brewer.pal(8, "Dark2"),
+              max.words = input$max_words
+              )
   }, height = 480)
 }
 
