@@ -1,0 +1,18 @@
+```{r}
+number_sightings_per_state <- bigfoot_data %>%
+  count(state)
+```
+
+
+```{r}
+library(ggplot2)
+
+ggplot(number_sightings_per_state,
+       aes(state, number_of_sightings)) +
+        geom_col(fill = "darkblue") +
+        theme(axis.text.x = element_text(angle = 60, hjust = 1), panel.background = element_rect(fill = "lightblue"), axis.ticks = element_blank(), panel.grid.major.y = element_blank(), panel.grid.minor.y = element_blank())
+       
+```
+
+
+
