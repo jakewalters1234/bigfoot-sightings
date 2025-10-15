@@ -1,0 +1,66 @@
+```{r }
+library(wordcloud)
+library(tm)
+library(memoise)
+library(tidyverse)
+library(stringr)
+```
+
+```{r }
+
+```
+
+
+
+```{r counting words for observed column}
+bigfoot_data_wordcount <- bigfoot_data %>%
+  mutate(word_count_of_observed = str_count(observed, "\\s+") + 1)
+```
+
+```{r }
+min(bigfoot_data_wordcount$word_count_of_observed)
+max(bigfoot_data_wordcount$word_count_of_observed)
+mean(bigfoot_data_wordcount$word_count_of_observed)
+median(bigfoot_data_wordcount$word_count_of_observed)
+```
+
+```{r }
+bigfoot_data_wordcount_filtered_less_200 <- bigfoot_data_wordcount %>%
+  filter(word_count_of_observed < 200)
+
+print(bigfoot_data_wordcount_filtered_less_200)
+```
+
+```{r }
+write.csv(bigfoot_data_wordcount_filtered_less_200, "bigfoot_data_wordcount_filtered_less_200.csv")
+```
+
+```{r }
+removed_words <- c("like", "the", "also", "didnt", "there", "got", "this")
+```
+
+
+```{r }
+str_split(removed_words, ", " )
+
+split <- str_split(removed_words, ", " )
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

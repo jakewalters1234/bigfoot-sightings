@@ -1,14 +1,30 @@
-bigfoot_data <- read.csv("bigfoot_data.csv")
+bigfoot_data <- read.csv("bigfoot_data_wordcount_filtered_less_200.csv")
 
 library(wordcloud)
 library(tm)
 library(memoise)
+library(tidyverse)
+library(stringr)
+
+
+
 
 function(input, output) {
   output$WordCloud <- renderPlot({
-    wordcloud(bigfoot_data$state)
-  })
+    
+      removed_words <- c("like", "the", "also", "didnt", "there", "got", "this")
+
+      kept_words <- sapply( 1:nrow(bigfoot_data),
+                            function(n) {
+                              words <- str_split(bigfoot_data$observed[n], "\\s")[[1]]
+                              words <- tolower(words)
+                              words <- gsub(".", "", words, fixed = TRUE)
+                              paste( words[ !words %in% removed_words], collapse = " ")
+                            })
+  
+    
+    
+    wordcloud(kept_words, max.words = 10)
+  }, height = 480)
 }
 
-
-#End of function for word cloud
