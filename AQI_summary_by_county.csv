@@ -1,0 +1,600 @@
+"State.Name","County.Name","Latitude","Longitude","avg_AQI","most_common_category","n_observations"
+"","",NA,NA,NA,"",1
+"Alabama","DeKalb",34.289001,-85.970065,30,"Good",1
+"Alabama","Jefferson",33.565278,-86.796389,36,"Good",1
+"Alaska","Denali ",63.7232,-148.9676,37,"Good",1
+"Arizona","Apache",34.058475,-109.441259,17,"Good",1
+"Arizona","Cochise",32.00941,-109.38906,29,"Good",1
+"Arizona","Coconino",35.225136,-111.607603,39,"Good",1
+"Arizona","Gila",33.419017,-110.82967,48,"Good",1
+"Arizona","La Paz",34.2439,-113.5586,38,"Good",1
+"Arizona","Maricopa",33.503833,-112.095767,176,"Unhealthy",1
+"Arizona","Mohave",36.019302,-114.069205,10,"Good",1
+"Arizona","Navajo",33.85815,-109.97029,35,"Good",1
+"Arizona","Pima",32.248712,-111.218494,33,"Good",1
+"Arizona","Pinal",33.293465,-111.285594,38,"Good",1
+"Arizona","Santa Cruz",31.33745,-110.93715,30,"Good",1
+"Arizona","Yavapai",34.340556,-111.683923,27,"Good",1
+"Arizona","Yuma",32.690278,-114.61444,40,"Good",1
+"Arkansas","Arkansas",34.518515,-91.55896,7,"Good",1
+"Arkansas","Ashley",33.139471,-91.939208,12,"Good",1
+"Arkansas","Clark",34.1795,-93.0988,18,"Good",1
+"Arkansas","Crittenden",35.197288,-90.193141,36.7,"Good",90
+"Arkansas","Garland",34.469441,-93.000178,29.6,"Good",29
+"Arkansas","Jackson",35.637283,-91.188906,28.5,"Good",28
+"Arkansas","Newton",35.825893,-93.203187,35.5,"Good",90
+"Arkansas","Polk",34.454514,-94.143521,37.1,"Good",90
+"Arkansas","Pulaski",34.681343,-92.328697,42.3,"Good",91
+"Arkansas","Union",33.220563,-92.672263,32.3,"Good",25
+"Arkansas","Washington",36.011703,-94.167436,39.5,"Good",90
+"California","Colusa",39.18919,-121.99887,14.7,"Good",108
+"California","Fresno",37.22064,-119.155557,48.3,"Good",59
+"California","Imperial",33.213611,-115.54528,31,"Good",34
+"California","Inyo",37.155494,-118.293547,26.2,"Good",120
+"California","Kern",34.821922,-118.887598,85.2,"Moderate",32
+"California","Kings",36.31567,-119.643447,37.1,"Good",120
+"California","Mariposa",37.748707,-119.587094,39.7,"Good",59
+"California","Merced",37.30832,-120.480456,15.5,"Good",2
+"California","Monterey",36.694261,-121.623271,37.6,"Good",91
+"California","Nevada",39.32783,-120.184592,35.8,"Good",120
+"California","Placer",38.867937,-121.338353,40.5,"Good",31
+"California","Plumas",39.81336,-120.47069,69.8,"Moderate",120
+"California","Riverside",33.61235,-114.60209,49.8,"Good",90
+"California","Sacramento",38.494475,-121.211131,54,"Moderate",32
+"California","San Benito",36.48324,-121.15688,37.1,"Good",90
+"California","San Bernardino",34.193925,-116.914063,40.9,"Good",58
+"California","Santa Barbara",34.733889,-120.008349,39.6,"Good",32
+"California","Santa Cruz",37.06315,-122.083092,37.6,"Good",90
+"California","Shasta",40.53999,-121.57646,40.1,"Good",59
+"California","Solano",38.35655,-121.94986,6,"Good",3
+"California","Stanislaus",37.488317,-120.836008,15,"Good",2
+"California","Tehama",40.17093,-122.25556,3.5,"Good",2
+"California","Tulare",36.031831,-119.055018,34.3,"Good",59
+"California","Ventura",34.25239,-119.143182,43.8,"Good",90
+"California","Yolo",38.57146,-121.52579,8.3,"Good",6
+"Colorado","Adams",39.838119,-104.94984,35.4,"Good",89
+"Colorado","Arapahoe",39.638522,-104.569335,31.3,"Good",54
+"Colorado","Archuleta",37.205862,-107.254118,32,"Good",54
+"Colorado","Boulder",40.012969,-105.267212,33.9,"Good",54
+"Colorado","Clear Creek",39.794391,-105.76398,45.1,"Good",54
+"Colorado","Denver",39.7861,-104.9886,42.4,"Good",99
+"Colorado","Douglas",39.534488,-105.070358,27.9,"Good",53
+"Colorado","El Paso",38.848014,-104.828564,36.3,"Good",61
+"Colorado","Fremont",38.43829,-105.24504,11.8,"Good",5
+"Colorado","Garfield",39.53068,-107.78225,35.9,"Good",90
+"Colorado","Gilpin",39.792519,-105.49127,41.9,"Good",31
+"Colorado","Gunnison",38.9564,-106.9858,42.8,"Good",59
+"Colorado","Jefferson",39.620408,-105.33872,37.8,"Good",59
+"Colorado","La Plata",37.10258,-107.870219,39.5,"Good",59
+"Colorado","Larimer",40.57747,-105.07892,44.8,"Good",59
+"Colorado","Mesa",39.130575,-108.313835,37,"Good",93
+"Colorado","Montezuma",37.20006,-108.7331,41.1,"Good",90
+"Colorado","Pitkin",39.19296,-106.82323,7.2,"Good",8
+"Colorado","Prowers",38.084688,-102.618641,26.3,"Good",58
+"Colorado","Pueblo",38.276099,-104.597613,20.7,"Good",25
+"Colorado","Rio Blanco",39.9153,-107.6345,38.3,"Good",59
+"Colorado","Routt",40.485201,-106.831625,16.5,"Good",52
+"Colorado","San Miguel",37.937872,-107.813061,11.5,"Good",21
+"Colorado","Weld",40.181625,-104.72613,33.6,"Good",69
+"Connecticut","Windham",41.84046,-72.010368,33.2,"Good",58
+"Country Of Mexico","BAJA CALIFORNIA NORTE",32.633671,-115.504995,87.7,"Moderate",90
+"Florida","Indian River",27.8492,-80.4554,38.1,"Good",57
+"Florida","Liberty",30.1103,-84.9903,30.7,"Good",58
+"Georgia","Bibb",32.805264,-83.543493,33.5,"Good",59
+"Georgia","Chatham",32.090779,-81.130222,37.1,"Good",59
+"Georgia","Clarke",33.918137,-83.344385,37,"Good",59
+"Georgia","Clayton",33.610845,-84.390717,30.5,"Good",11
+"Georgia","Cobb",34.015436,-84.607423,37.2,"Good",11
+"Georgia","Coffee",31.513097,-82.749971,25.1,"Good",11
+"Georgia","DeKalb",33.698643,-84.272614,37.1,"Good",90
+"Georgia","Dougherty",31.5776,-84.0998,38.8,"Good",59
+"Georgia","Floyd",34.2434,-85.3259,24.5,"Good",59
+"Georgia","Fulton",33.7784,-84.3914,36.4,"Good",90
+"Georgia","Glynn",31.169805,-81.495035,31.4,"Good",10
+"Georgia","Gwinnett",33.9632,-84.0691,35.5,"Good",27
+"Georgia","Hall",34.2993,-83.8134,30.7,"Good",59
+"Georgia","Henry",33.433949,-84.161811,21.3,"Good",58
+"Georgia","Houston",32.6056,-83.5978,38.2,"Good",59
+"Georgia","Lowndes",30.8486,-83.2933,34.2,"Good",59
+"Georgia","Muscogee",32.539571,-84.844732,34,"Good",120
+"Georgia","Pike",33.1787,-84.4052,32.4,"Good",58
+"Georgia","Richmond",33.4339,-82.0224,43.4,"Good",59
+"Georgia","Rockdale",33.588545,-84.069608,43,"Good",61
+"Georgia","Sumter",31.954286,-84.08101,41,"Good",61
+"Georgia","Washington",32.967359,-82.806871,35.5,"Good",59
+"Hawaii","Hawaii",19.555444,-155.102028,27.7,"Good",59
+"Idaho","Butte",43.460556,-113.562222,37.2,"Good",59
+"Idaho","Idaho",46.2756,-116.0216,33.5,"Good",90
+"Idaho","Nez Perce",46.3972,-116.8062,18.3,"Good",90
+"Illinois","Adams",39.915409,-91.335868,39.7,"Good",31
+"Illinois","Champaign",40.05278,-88.37251,39.7,"Good",90
+"Illinois","Clark",39.210857,-87.668297,32.8,"Good",90
+"Illinois","Cook",42.062053,-87.675254,54.6,"Moderate",92
+"Illinois","DuPage",41.813049,-88.072827,44.6,"Good",90
+"Illinois","Effingham",39.067159,-88.548934,38.4,"Good",31
+"Illinois","Hamilton",38.082155,-88.624943,38.6,"Good",90
+"Illinois","Jersey",39.101439,-90.344494,36.6,"Good",87
+"Illinois","Jo Daviess",42.2869,-89.9997,32.9,"Good",59
+"Illinois","Kane",41.784717,-88.329374,41.3,"Good",52
+"Illinois","La Salle",41.293015,-89.049425,0.8,"Good",84
+"Illinois","Lake",42.467573,-87.810047,41.2,"Good",31
+"Illinois","Macon",39.846856,-88.923323,40.3,"Good",90
+"Illinois","Macoupin",39.396075,-89.809739,15.9,"Good",90
+"Illinois","Madison",38.869001,-89.622816,49.2,"Good",90
+"Illinois","McHenry",42.221442,-88.242207,39.4,"Good",88
+"Illinois","McLean",40.518735,-88.996896,42,"Good",90
+"Illinois","Monroe",38.15908,-90.22728,3.6,"Good",90
+"Illinois","Peoria",40.745504,-89.585869,41,"Good",86
+"Illinois","Randolph",38.176278,-89.788459,38.3,"Good",90
+"Illinois","Rock Island",41.514727,-90.51735,39.7,"Good",86
+"Illinois","Saint Clair",38.612034,-90.160477,42.6,"Good",90
+"Illinois","Sangamon",39.831522,-89.640926,36.3,"Good",89
+"Illinois","Tazewell",40.55646,-89.654028,1.6,"Good",86
+"Illinois","Wabash",38.397789,-87.773853,2.5,"Good",90
+"Illinois","Will",41.221537,-88.190967,46.1,"Good",90
+"Illinois","Winnebago",42.334982,-89.037775,46.1,"Good",86
+"Indiana","Allen",41.094965,-85.101816,38.2,"Good",90
+"Indiana","Bartholomew",39.237457,-85.891332,39.6,"Good",120
+"Indiana","Boone",39.997732,-86.395394,29.4,"Good",90
+"Indiana","Brown",39.263914,-86.292269,36,"Good",120
+"Indiana","Carroll",40.540455,-86.553035,35,"Good",120
+"Indiana","Clark",38.288191,-85.741337,45.3,"Good",90
+"Indiana","Delaware",40.300385,-85.245862,37.8,"Good",117
+"Indiana","Dubois",38.391799,-86.929668,38.6,"Good",31
+"Indiana","Elkhart",41.657155,-85.968446,37.3,"Good",90
+"Indiana","Floyd",38.30703,-85.832974,30.9,"Good",90
+"Indiana","Gibson",38.392991,-87.748323,4.4,"Good",90
+"Indiana","Greene",38.985477,-86.990419,35.7,"Good",88
+"Indiana","Hamilton",39.928804,-86.078775,39.8,"Good",90
+"Indiana","Hendricks",39.758707,-86.3985,33.1,"Good",120
+"Indiana","Henry",40.009544,-85.52347,35.1,"Good",28
+"Indiana","Howard",40.481347,-86.109688,40.7,"Good",90
+"Indiana","Knox",38.7408,-87.4853,30.4,"Good",59
+"Indiana","LaPorte",41.707212,-86.891216,36.3,"Good",90
+"Indiana","Lake",41.639306,-87.493609,50.6,"Good",90
+"Indiana","Madison",40.125703,-85.652184,43,"Good",120
+"Indiana","Marion",39.787933,-86.13088,49.1,"Good",120
+"Indiana","Monroe",39.159383,-86.504762,35.6,"Good",65
+"Indiana","Perry",38.115152,-86.60325,32.7,"Good",90
+"Indiana","Porter",41.635404,-87.150567,40.3,"Good",90
+"Indiana","Posey",38.00641,-87.718354,29.3,"Good",90
+"Indiana","Shelby",39.613367,-85.870669,33,"Good",120
+"Indiana","Spencer",38.167523,-86.983214,35.8,"Good",30
+"Indiana","St. Joseph",41.754722,-86.11,45.8,"Good",90
+"Indiana","Tippecanoe",40.431639,-86.8525,44.5,"Good",59
+"Indiana","Vanderburgh",37.97768,-87.596836,42.4,"Good",90
+"Indiana","Vigo",39.507688,-87.37444,40.1,"Good",90
+"Indiana","Wabash",40.816038,-85.661408,31.8,"Good",59
+"Indiana","Warrick",37.954444,-87.321667,31.7,"Good",90
+"Indiana","Whitley",41.169646,-85.629292,39,"Good",67
+"Iowa","Black Hawk",42.501543,-92.316017,42.5,"Good",120
+"Iowa","Bremer",42.743036,-92.513241,37.1,"Good",60
+"Iowa","Cerro Gordo",43.16944,-93.202426,15.5,"Good",30
+"Iowa","Clinton",41.874999,-90.177574,49.3,"Moderate",120
+"Iowa","Harrison",41.832256,-95.928185,38.5,"Good",61
+"Iowa","Johnson",41.657232,-91.503478,46.5,"Good",109
+"Iowa","Lee",40.400959,-91.391012,38.8,"Good",23
+"Iowa","Linn",41.948708,-91.639535,48,"Good",120
+"Iowa","Montgomery",40.969112,-95.044951,38.8,"Good",120
+"Iowa","Muscatine",41.4069,-91.0616,40.5,"Good",120
+"Iowa","Palo Alto",43.123704,-94.693518,40.4,"Good",120
+"Iowa","Polk",41.603517,-93.7479,41.5,"Good",120
+"Iowa","Pottawattamie",41.25425,-95.887249,39.4,"Good",31
+"Iowa","Scott",41.512077,-90.624044,48.5,"Good",121
+"Iowa","Van Buren",40.695078,-92.006318,38.8,"Good",118
+"Iowa","Woodbury",42.499844,-96.394755,40.2,"Good",30
+"Kentucky","Edmonson",37.13179,-86.142953,28.8,"Good",60
+"Kentucky","Morgan",37.9214,-83.0662,31.1,"Good",54
+"Kentucky","Trigg",36.7841,-87.8499,31.6,"Good",59
+"Kentucky","Washington",37.7046,-85.0485,30.8,"Good",58
+"Louisiana","Ascension",30.229653,-90.965628,30.2,"Good",90
+"Louisiana","Bossier",32.535293,-93.747041,36.8,"Good",90
+"Louisiana","Caddo",32.471819,-93.795179,33,"Good",89
+"Louisiana","Calcasieu",30.103724,-93.285598,42.2,"Good",90
+"Louisiana","East Baton Rouge",30.577617,-91.235323,36.4,"Good",91
+"Louisiana","Iberville",30.204218,-91.126041,37.2,"Good",90
+"Louisiana","Jefferson",29.900314,-90.109836,33.7,"Good",90
+"Louisiana","Lafayette",30.22611,-92.042908,39.4,"Good",90
+"Louisiana","Lafourche",29.764098,-90.765275,36.5,"Good",90
+"Louisiana","Livingston",30.315406,-90.811383,35.3,"Good",85
+"Louisiana","Orleans",30.108633,-89.761683,24.4,"Good",91
+"Louisiana","Ouachita",32.509959,-92.046196,31.9,"Good",72
+"Louisiana","Pointe Coupee",30.681718,-91.366247,32.9,"Good",90
+"Louisiana","St. Bernard",29.943164,-89.97625,39.8,"Good",90
+"Louisiana","St. Charles",29.997366,-90.411185,8.4,"Good",90
+"Louisiana","St. James",30.052341,-90.670833,26.8,"Good",87
+"Louisiana","St. John the Baptist",30.07783,-90.532944,31.7,"Good",87
+"Louisiana","St. Martin",30.088872,-91.869595,34.2,"Good",89
+"Louisiana","St. Tammany",30.429381,-90.199678,32.7,"Good",86
+"Louisiana","West Baton Rouge",30.327723,-91.284108,31.8,"Good",90
+"Maine","Androscoggin",43.974622,-70.124608,32.6,"Good",110
+"Maine","Aroostook",46.6041,-68.4135,35.2,"Good",90
+"Maine","Cumberland",43.832458,-70.063815,37.9,"Good",121
+"Maine","Hancock",44.37705,-68.2609,39.7,"Good",121
+"Maine","Kennebec",44.230622,-69.785,38.6,"Good",61
+"Maine","Knox",43.917955,-69.26059,41.4,"Good",56
+"Maine","Oxford",44.377794,-70.854697,33.4,"Good",120
+"Maine","Penobscot",44.94798,-68.64788,33,"Good",120
+"Maine","Washington",45.125837,-67.265408,38.5,"Good",119
+"Maine","York",43.343167,-70.471034,41.4,"Good",78
+"Maryland","Anne Arundel",39.158911,-76.511025,16.9,"Good",89
+"Maryland","Baltimore",39.310833,-76.474444,37.9,"Good",85
+"Maryland","Baltimore (City)",39.328807,-76.553075,31.5,"Good",88
+"Maryland","Cecil",39.702982,-75.864771,38.5,"Good",90
+"Maryland","Dorchester",38.444971,-76.111274,38.3,"Good",90
+"Maryland","Garrett",39.70595,-79.012,37.1,"Good",91
+"Maryland","Harford",39.563333,-76.203889,39,"Good",90
+"Maryland","Howard",39.14313,-76.84611,28.4,"Good",88
+"Maryland","Kent",39.305021,-75.797317,22.7,"Good",86
+"Maryland","Montgomery",39.114313,-77.106876,39.1,"Good",90
+"Maryland","Prince George's",39.0284,-76.8171,39.5,"Good",90
+"Maryland","Washington",39.564178,-77.720244,41.5,"Good",90
+"Massachusetts","Barnstable",41.975804,-70.023598,32.8,"Good",31
+"Massachusetts","Berkshire",42.702223,-73.110414,33.6,"Good",47
+"Massachusetts","Bristol",41.645381,-70.897504,36,"Good",31
+"Massachusetts","Dukes",41.330469,-70.785225,32.1,"Good",31
+"Massachusetts","Essex",42.770837,-71.10229,36.1,"Good",31
+"Massachusetts","Franklin",42.605816,-72.596689,39,"Good",47
+"Massachusetts","Hampden",42.120229,-72.584503,40.9,"Good",37
+"Massachusetts","Hampshire",42.298493,-72.334079,30.9,"Good",37
+"Massachusetts","Middlesex",42.612085,-71.306986,35.5,"Good",31
+"Massachusetts","Norfolk",42.211774,-71.11397,35.9,"Good",31
+"Massachusetts","Plymouth",42.065106,-71.012129,35.7,"Good",31
+"Massachusetts","Suffolk",42.325186,-71.056061,36.1,"Good",50
+"Massachusetts","Worcester",42.099699,-71.619399,35.6,"Good",39
+"Michigan","Allegan",42.767786,-86.148577,29.7,"Good",86
+"Michigan","Bay",43.571391,-83.890721,27.7,"Good",90
+"Michigan","Cass",41.89557,-86.001629,37.4,"Good",52
+"Michigan","Genesee",43.168336,-83.461541,32.4,"Good",89
+"Michigan","Kent",43.176672,-85.416608,5.6,"Good",91
+"Michigan","Lenawee",41.995568,-83.946559,40.7,"Good",90
+"Michigan","Missaukee",44.310555,-84.891865,35.6,"Good",90
+"Michigan","Monroe",41.886989,-83.364098,19.5,"Good",15
+"Michigan","Schoolcraft",46.288877,-85.950227,27.1,"Good",90
+"Michigan","Tuscola",43.6138,-83.3591,32.4,"Good",59
+"Michigan","Washtenaw",42.416636,-83.902185,33.6,"Good",90
+"Michigan","Wayne",42.270009,-83.162585,9.5,"Good",91
+"Michigan","Wexford",44.18089,-85.738985,33.4,"Good",59
+"Minnesota","Saint Louis",46.72938,-92.15998,30.6,"Good",59
+"Mississippi","Bolivar",33.750838,-90.734175,35.6,"Good",87
+"Mississippi","DeSoto",34.82166,-89.98783,37.5,"Good",90
+"Mississippi","Forrest",31.323639,-89.287167,40.9,"Good",90
+"Mississippi","Hancock",30.300833,-89.395916,37,"Good",90
+"Mississippi","Harrison",30.390369,-89.049778,38.5,"Good",90
+"Mississippi","Hinds",32.346722,-90.225667,43.6,"Good",91
+"Mississippi","Jackson",30.378287,-88.53393,37.3,"Good",90
+"Mississippi","Lauderdale",32.364565,-88.731491,33.9,"Good",31
+"Mississippi","Lee",34.264917,-88.766222,39.5,"Good",31
+"Mississippi","Yalobusha",34.002747,-89.799183,31.5,"Good",58
+"Missouri","Buchanan",39.741694,-94.858584,34.1,"Good",59
+"Missouri","Cass",38.75961,-94.57983,28.9,"Good",59
+"Missouri","Cedar",37.70097,-94.03474,32.2,"Good",59
+"Missouri","Clay",39.331913,-94.580931,31.9,"Good",47
+"Missouri","Franklin",38.5486,-90.83725,3.8,"Good",90
+"Missouri","Greene",37.319186,-93.204411,20.6,"Good",59
+"Missouri","Iron",37.63211,-91.13565,7.1,"Good",59
+"Missouri","Jackson",39.047911,-94.450513,44.5,"Good",60
+"Missouri","Jasper",37.2385,-94.42468,20.5,"Good",54
+"Missouri","Jefferson",38.10525,-90.29842,22.9,"Good",90
+"Missouri","Monroe",39.474976,-91.788991,28,"Good",59
+"Missouri","New Madrid",36.50899,-89.57099,106.7,"Unhealthy for Sensitive Groups",90
+"Missouri","Saint Charles",38.595607,-90.830618,4.9,"Good",90
+"Missouri","Saint Louis",38.650329,-90.350313,32.9,"Good",59
+"Missouri","St. Louis City",38.63114,-90.28115,46.6,"Good",60
+"Montana","Cascade",47.494318,-111.303317,12.8,"Good",31
+"Montana","Fergus",47.582225,-108.720383,34.5,"Good",31
+"Montana","Flathead",48.5103,-113.99681,34.8,"Good",59
+"Montana","Gallatin",45.683765,-111.056282,19.9,"Good",60
+"Montana","Lewis and Clark",46.826103,-111.711573,39.7,"Good",32
+"Montana","Lincoln",48.391545,-115.553309,68.5,"Moderate",31
+"Montana","Missoula",47.17563,-113.476182,66.2,"Moderate",31
+"Montana","Phillips",48.317507,-107.862471,26.2,"Good",31
+"Montana","Powder River",45.440295,-105.370283,32.9,"Good",30
+"Montana","Ravalli",45.859686,-114.001032,21.1,"Good",31
+"Montana","Richland",47.8679,-104.676944,32.5,"Good",31
+"Montana","Rosebud",45.648328,-106.557247,28.9,"Good",31
+"Montana","Sanders",47.954771,-115.671925,40.3,"Good",29
+"Montana","Silver Bow",46.002602,-112.501247,29.1,"Good",31
+"Montana","Yellowstone",45.806311,-108.425978,27.2,"Good",31
+"Nebraska","Cass",40.865557,-96.146955,15.5,"Good",119
+"Nebraska","Douglas",41.316675,-95.946404,39.7,"Good",91
+"Nebraska","Hall",40.915555,-98.378888,28.8,"Good",120
+"Nebraska","Knox",42.829154,-97.854129,31.2,"Good",59
+"Nebraska","Lancaster",40.55476,-96.78035,29.4,"Good",20
+"Nebraska","Sarpy",41.133294,-95.956103,36.3,"Good",80
+"Nebraska","Scotts Bluff",41.875556,-103.658056,17.9,"Good",116
+"Nebraska","Washington",41.551211,-96.146175,37.7,"Good",24
+"Nevada","Clark",36.569333,-115.676651,52.8,"Good",91
+"Nevada","White Pine",39.00512,-114.21593,39.8,"Good",59
+"New Hampshire","Grafton",43.944519,-71.700788,33.2,"Good",57
+"New Jersey","Mercer",40.3125,-74.8729,30.7,"Good",59
+"New Mexico","Dona Ana",32.322037,-106.768337,57,"Good",90
+"New Mexico","Eddy",32.1783,-104.4406,38.6,"Good",59
+"New Mexico","Luna",32.2558,-107.7227,19,"Good",90
+"New Mexico","San Juan",36.8071,-108.69523,36.1,"Good",90
+"New York","Albany",42.640931,-73.756511,41.2,"Good",90
+"New York","Bronx",40.8679,-73.87809,41.9,"Good",91
+"New York","Chautauqua",42.49963,-79.31881,37.2,"Good",90
+"New York","Dutchess",41.78555,-73.74136,34.3,"Good",90
+"New York","Erie",42.99813,-78.89926,38.5,"Good",91
+"New York","Essex",43.9731,-74.2232,42,"Good",90
+"New York","Hamilton",43.44957,-74.51625,36.7,"Good",90
+"New York","Jefferson",44.08747,-75.97316,36.3,"Good",86
+"New York","Kings",40.71961,-73.94771,32.4,"Good",90
+"New York","Monroe",43.14618,-77.54817,41.1,"Good",91
+"New York","Nassau",40.74316,-73.58549,28.5,"Good",89
+"New York","New York",40.81976,-73.94825,37.8,"Good",91
+"New York","Niagara",43.096373,-79.011447,35.2,"Good",89
+"New York","Oneida",43.09892,-75.22506,25.6,"Good",84
+"New York","Onondaga",43.05235,-76.05921,38.8,"Good",90
+"New York","Orange",41.52375,-74.21534,38.1,"Good",90
+"New York","Oswego",43.28428,-76.46324,36.9,"Good",87
+"New York","Putnam",41.45589,-73.70977,36.2,"Good",90
+"New York","Queens",40.739264,-73.817694,41.5,"Good",91
+"New York","Richmond",40.58027,-74.19832,35.9,"Good",89
+"New York","Rockland",41.18208,-74.02819,36.4,"Good",89
+"New York","Saratoga",43.01209,-73.6489,35,"Good",90
+"New York","St. Lawrence",44.965412,-74.875,30.8,"Good",90
+"New York","Steuben",42.09142,-77.20978,38.1,"Good",91
+"New York","Suffolk",40.82799,-73.05754,39.5,"Good",90
+"New York","Tompkins",42.4006,-76.6538,35.9,"Good",59
+"New York","Wayne",43.23086,-77.17136,35.6,"Good",89
+"New York","Westchester",41.05192,-73.76366,36.9,"Good",90
+"North Carolina","Alexander",35.9138,-81.191,42,"Good",31
+"North Carolina","Avery",36.1058,-82.0454,38.5,"Good",85
+"North Carolina","Beaufort",35.428,-76.7399,0.8,"Good",57
+"North Carolina","Brunswick",33.942294,-78.019264,7.6,"Good",57
+"North Carolina","Buncombe",35.481963,-82.509719,26.5,"Good",90
+"North Carolina","Caldwell",35.9359,-81.5306,41.4,"Good",31
+"North Carolina","Carteret",34.8848,-76.6203,33.4,"Good",54
+"North Carolina","Caswell",36.307033,-79.467417,33.9,"Good",37
+"North Carolina","Catawba",35.728889,-81.365556,28.7,"Good",59
+"North Carolina","Cumberland",35.002304,-78.991692,31.6,"Good",90
+"North Carolina","Davidson",35.8145,-80.2627,36.4,"Good",59
+"North Carolina","Durham",36.032955,-78.904037,33.5,"Good",90
+"North Carolina","Edgecombe",35.988278,-77.5843,27,"Good",90
+"North Carolina","Forsyth",36.051805,-80.144933,33.9,"Good",59
+"North Carolina","Graham",35.2578,-83.7955,45,"Good",31
+"North Carolina","Granville",36.141111,-78.768056,36.1,"Good",31
+"North Carolina","Guilford",36.109006,-79.802314,28,"Good",90
+"North Carolina","Haywood",35.587144,-83.074156,24.7,"Good",80
+"North Carolina","Johnston",35.59095,-78.4622,30.3,"Good",90
+"North Carolina","Lenoir",35.2318,-77.5669,23.7,"Good",59
+"North Carolina","Lincoln",35.438556,-81.27675,39.7,"Good",31
+"North Carolina","Macon",35.0608,-83.4306,31.5,"Good",58
+"North Carolina","Martin",35.81066,-76.9063,39.6,"Good",31
+"North Carolina","Mecklenburg",35.281791,-80.851473,39.4,"Good",91
+"North Carolina","Mitchell",35.912487,-82.062082,21.5,"Good",59
+"North Carolina","Montgomery",35.2632,-79.8365,34.5,"Good",59
+"North Carolina","New Hanover",34.23583,-77.9547,28.6,"Good",90
+"North Carolina","Northampton",36.511708,-77.655389,14.6,"Good",90
+"North Carolina","Person",36.49002,-79.058272,41.9,"Good",31
+"North Carolina","Pitt",35.641276,-77.360126,28,"Good",85
+"North Carolina","Rockingham",36.308889,-79.859167,16.1,"Good",87
+"North Carolina","Rowan",35.551868,-80.395039,35.8,"Good",89
+"North Carolina","Swain",35.498711,-83.310242,43.3,"Good",85
+"North Carolina","Union",34.974039,-80.540622,39.7,"Good",31
+"North Carolina","Wake",35.8652,-78.8197,37.3,"Good",91
+"North Carolina","Yancey",35.765413,-82.264944,46.4,"Good",31
+"North Dakota","Billings",46.8943,-103.37853,32.4,"Good",59
+"North Dakota","Burke",48.64193,-102.4018,33.9,"Good",59
+"North Dakota","Burleigh",46.825425,-100.76821,35.6,"Good",60
+"North Dakota","Cass",46.933754,-96.85535,39.5,"Good",59
+"North Dakota","Dunn",47.342423,-102.645864,33.3,"Good",59
+"North Dakota","McKenzie",47.5812,-103.2995,30.4,"Good",53
+"North Dakota","Mercer",47.400624,-101.929099,32.3,"Good",59
+"North Dakota","Oliver",47.185833,-101.428056,33.7,"Good",59
+"North Dakota","Ward",47.940861,-101.571583,32.7,"Good",59
+"Ohio","Allen",40.770944,-84.0539,37.8,"Good",59
+"Ohio","Ashtabula",41.959695,-80.572808,7.1,"Good",59
+"Ohio","Athens",39.442165,-81.908827,28.2,"Good",18
+"Ohio","Belmont",39.9679,-80.7464,21.9,"Good",59
+"Ohio","Butler",39.5327,-84.7286,47.6,"Good",90
+"Ohio","Clark",39.92882,-83.80949,43.8,"Good",68
+"Ohio","Clermont",39.0828,-84.1441,33.1,"Good",90
+"Ohio","Columbiana",40.634688,-80.545695,2.3,"Good",59
+"Ohio","Cuyahoga",41.536942,-81.458871,55.6,"Moderate",60
+"Ohio","Fayette",39.6359,-83.2605,31.3,"Good",59
+"Ohio","Franklin",40.0877,-82.959773,46.2,"Good",60
+"Ohio","Gallia",38.94945,-82.1104,6.6,"Good",58
+"Ohio","Guernsey",39.983752,-81.562234,8.2,"Good",59
+"Ohio","Hamilton",39.146025,-84.538375,50.5,"Good",91
+"Ohio","Hancock",41.093169,-83.423448,3.3,"Good",59
+"Ohio","Harrison",40.332933,-80.933401,10.7,"Good",51
+"Ohio","Jefferson",40.259475,-80.639987,39.1,"Good",56
+"Ohio","Lake",41.758462,-81.278129,28,"Good",59
+"Ohio","Lawrence",38.508075,-82.659241,40,"Good",59
+"Ohio","Lorain",41.463071,-82.114261,38,"Good",59
+"Ohio","Lucas",41.679867,-83.4785,33.7,"Good",59
+"Ohio","Mahoning",41.09596,-80.65847,35,"Good",59
+"Ohio","Medina",41.0604,-81.9239,37.2,"Good",59
+"Ohio","Montgomery",39.755969,-84.198674,44.6,"Good",63
+"Ohio","Morgan",39.63223,-81.67005,4.6,"Good",55
+"Ohio","Noble",39.9428,-81.3373,31.3,"Good",59
+"Ohio","Preble",39.83562,-84.720524,42.1,"Good",70
+"Ohio","Scioto",38.588034,-82.834973,17.7,"Good",59
+"Ohio","Stark",40.93133,-81.123519,48.5,"Good",90
+"Ohio","Summit",41.079159,-81.516235,34.3,"Good",59
+"Ohio","Trumbull",41.23172,-80.80116,36.8,"Good",59
+"Ohio","Warren",39.42689,-84.20077,36.7,"Good",90
+"Oklahoma","Adair",35.750735,-94.669697,37.1,"Good",91
+"Oklahoma","Canadian",35.479215,-97.751503,34.9,"Good",120
+"Oklahoma","Carter",34.244189,-97.462931,38.6,"Good",87
+"Oklahoma","Cleveland",35.320105,-97.484099,50.9,"Moderate",120
+"Oklahoma","Comanche",34.732404,-98.713351,43.3,"Good",118
+"Oklahoma","Creek",36.105481,-96.361196,37.6,"Good",119
+"Oklahoma","Dewey",36.158414,-98.931973,39.9,"Good",120
+"Oklahoma","Garfield",36.512363,-97.845959,3,"Good",116
+"Oklahoma","Kay",36.939969,-97.345,48,"Good",120
+"Oklahoma","Mayes",36.228408,-95.249943,37.6,"Good",32
+"Oklahoma","Oklahoma",35.614131,-97.475083,50.6,"Good",121
+"Oklahoma","Osage",36.35586,-96.01243,37.9,"Good",117
+"Oklahoma","Pittsburg",34.829396,-95.843642,46.7,"Good",120
+"Oklahoma","Sequoyah",35.40814,-94.524413,35.4,"Good",90
+"Oklahoma","Tulsa",35.901324,-96.012749,51.6,"Good",121
+"Oklahoma","Washington",36.512368,-95.882622,47.7,"Good",120
+"Oregon","Lane",43.799501,-123.053487,27.4,"Good",29
+"Pennsylvania","Adams",39.9231,-77.3078,35,"Good",78
+"Pennsylvania","Allegheny",40.308219,-79.869134,49.8,"Good",91
+"Pennsylvania","Armstrong",40.814183,-79.56475,35.7,"Good",66
+"Pennsylvania","Beaver",40.685019,-80.324775,35.3,"Good",78
+"Pennsylvania","Berks",40.377222,-75.914444,32.8,"Good",81
+"Pennsylvania","Blair",40.535278,-78.370833,32.9,"Good",72
+"Pennsylvania","Bradford",41.705226,-76.512726,36.5,"Good",66
+"Pennsylvania","Bucks",40.107222,-74.882222,31.4,"Good",68
+"Pennsylvania","Cambria",40.309722,-78.915,35.1,"Good",66
+"Pennsylvania","Centre",40.7208,-77.9319,33.7,"Good",78
+"Pennsylvania","Chester",39.834461,-75.768242,32.1,"Good",52
+"Pennsylvania","Clearfield",41.1175,-78.526194,31.7,"Good",70
+"Pennsylvania","Dauphin",40.272222,-76.681389,30.8,"Good",81
+"Pennsylvania","Delaware",39.818715,-75.413973,30.6,"Good",78
+"Pennsylvania","Elk",41.598119,-78.767867,33.8,"Good",58
+"Pennsylvania","Erie",42.14175,-80.038611,34.2,"Good",38
+"Pennsylvania","Fayette",39.917663,-79.805499,29.4,"Good",70
+"Pennsylvania","Franklin",39.961111,-77.475556,33.2,"Good",73
+"Pennsylvania","Greene",39.80933,-80.26567,33.5,"Good",75
+"Pennsylvania","Indiana",40.56333,-78.919972,33.7,"Good",69
+"Pennsylvania","Lackawanna",41.442778,-75.623056,32.2,"Good",79
+"Pennsylvania","Lancaster",40.043833,-76.1124,33.1,"Good",86
+"Pennsylvania","Lawrence",40.995848,-80.346442,25.7,"Good",79
+"Pennsylvania","Lebanon",40.337328,-76.383447,33,"Good",66
+"Pennsylvania","Lehigh",40.611944,-75.4325,31.4,"Good",67
+"Pennsylvania","Luzerne",41.265556,-75.846389,33.6,"Good",76
+"Pennsylvania","Lycoming",41.266263,-77.231189,31.6,"Good",75
+"Pennsylvania","Mercer",41.4271,-80.1451,33.7,"Good",78
+"Pennsylvania","Monroe",41.08306,-75.32328,33.9,"Good",65
+"Pennsylvania","Montgomery",40.112222,-75.309167,32.3,"Good",77
+"Pennsylvania","Northampton",40.628056,-75.341111,33,"Good",77
+"Pennsylvania","Somerset",39.9878,-79.2515,31.4,"Good",58
+"Pennsylvania","Tioga",41.644722,-76.939167,37,"Good",64
+"Pennsylvania","Washington",40.268963,-80.243995,34.1,"Good",79
+"Pennsylvania","Westmoreland",40.392922,-79.024456,25.8,"Good",66
+"Pennsylvania","York",39.8751,-76.912256,34,"Good",81
+"Rhode Island","Kent",41.615237,-71.72,27.7,"Good",89
+"Rhode Island","Providence",41.841039,-71.36097,41.1,"Good",91
+"Rhode Island","Washington",41.377434,-71.524337,28.6,"Good",90
+"South Carolina","Aiken",33.342226,-81.788731,33.8,"Good",68
+"South Carolina","Anderson",34.635958,-82.810667,39.1,"Good",40
+"South Carolina","Berkeley",33.183016,-80.030712,35.3,"Good",48
+"South Carolina","Charleston",32.790984,-79.958694,39.1,"Good",90
+"South Carolina","Chesterfield",34.615367,-80.198787,35.5,"Good",90
+"South Carolina","Darlington",34.285696,-79.744859,33.4,"Good",54
+"South Carolina","Edgefield",33.739963,-81.853635,36,"Good",79
+"South Carolina","Florence",34.1675,-79.56266,28.9,"Good",77
+"South Carolina","Greenville",34.751848,-82.256701,39.6,"Good",90
+"South Carolina","Horry",33.8005,-78.9941,37.6,"Good",41
+"South Carolina","Lexington",33.969145,-81.06629,31.5,"Good",90
+"South Carolina","Richland",34.131262,-80.868318,35.9,"Good",90
+"South Carolina","Spartanburg",34.955566,-81.924797,37.4,"Good",81
+"South Carolina","York",34.9127,-80.8745,24.1,"Good",90
+"Tennessee","Blount",35.603056,-83.783611,32.9,"Good",60
+"Tennessee","Claiborne",36.46983,-83.826511,30,"Good",58
+"Tennessee","DeKalb",36.0388,-85.7331,31.2,"Good",57
+"Tennessee","Hamilton",35.102638,-85.162194,31.3,"Good",59
+"Tennessee","Knox",36.019186,-83.87381,45.4,"Good",120
+"Tennessee","Sevier",35.562872,-83.497941,37.5,"Good",59
+"Texas","Bell",31.088002,-97.679734,36.5,"Good",31
+"Texas","Brazos",30.628333,-96.362777,31.1,"Good",31
+"Texas","Brewster",29.30265,-103.17781,36.5,"Good",57
+"Texas","Collin",33.136025,-96.824473,27.5,"Good",31
+"Texas","Dallas",32.92118,-96.75355,29.5,"Good",32
+"Texas","Denton",33.410648,-96.94459,36.3,"Good",31
+"Texas","Ector",31.870259,-102.334745,26.2,"Good",30
+"Texas","El Paso",31.86247,-106.5473,43.1,"Good",32
+"Texas","Ellis",32.175417,-96.870189,34.8,"Good",31
+"Texas","Freestone",31.797813,-96.1031,0.5,"Good",31
+"Texas","Hood",32.442304,-97.803529,27,"Good",31
+"Texas","Howard",32.280422,-101.407137,58.2,"Good",29
+"Texas","Hunt",33.153088,-96.115572,27.6,"Good",31
+"Texas","Hutchinson",35.6762,-101.4401,7.4,"Good",31
+"Texas","Jefferson",29.8442,-93.9652,37.2,"Good",31
+"Texas","Johnson",32.469701,-97.169271,28.7,"Good",29
+"Texas","Kaufman",32.731919,-96.317911,26.5,"Good",31
+"Texas","Lubbock",33.58553,-101.78698,18.4,"Good",18
+"Texas","McLennan",31.653086,-97.070704,33.6,"Good",32
+"Texas","Navarro",31.9041,-96.352,31.5,"Good",31
+"Texas","Orange",30.194167,-93.866944,34,"Good",31
+"Texas","Parker",32.868773,-97.905931,29.3,"Good",31
+"Texas","Polk",30.7017,-94.6742,28.7,"Good",59
+"Texas","Potter",35.3165,-101.7418,24.5,"Good",31
+"Texas","Randall",34.8803,-101.6649,33.2,"Good",58
+"Texas","Robertson",31.168889,-96.481944,2.2,"Good",31
+"Texas","Rockwall",32.936523,-96.459211,25.5,"Good",31
+"Texas","Tarrant",32.65637,-97.088598,40.9,"Good",32
+"Texas","Travis",30.35386,-97.69166,40.7,"Good",32
+"Utah","Box Elder",41.945874,-112.233973,36.9,"Good",90
+"Utah","Cache",41.842649,-111.852199,45.5,"Good",90
+"Utah","Carbon",39.60996,-110.800749,39,"Good",90
+"Utah","Davis",41.041609,-112.233281,41.8,"Good",90
+"Utah","Duchesne",40.216779,-110.182742,48.9,"Good",90
+"Utah","Garfield",37.618383,-112.174368,41.4,"Good",87
+"Utah","Iron",37.74743,-113.055525,35.4,"Good",90
+"Utah","Salt Lake",40.662878,-111.901188,47.6,"Good",91
+"Utah","San Juan",38.45832,-109.82126,38.3,"Good",59
+"Utah","Tooele",40.600532,-112.353414,36.1,"Good",90
+"Utah","Uintah",40.44,-109.3,46.8,"Good",90
+"Utah","Utah",40.136336,-111.660502,41.6,"Good",91
+"Utah","Washington",37.1983,-113.1506,40.5,"Good",90
+"Utah","Weber",41.303614,-111.987871,37.5,"Good",91
+"Virginia","Carroll",36.70067,-80.87978,6,"Good",1
+"Virginia","Fairfax",38.76835,-77.18347,2,"Good",1
+"Virginia","Giles",37.3232,-80.4572,31.5,"Good",57
+"Virginia","Hampton City",37.103733,-76.387017,5,"Good",1
+"Virginia","Hopewell City",37.289616,-77.291816,2,"Good",1
+"Virginia","Madison",38.5231,-78.43471,34.3,"Good",59
+"Virginia","Norfolk City",36.85555,-76.30135,4,"Good",2
+"Virginia","Prince Edward",37.1655,-78.3069,29.2,"Good",53
+"Virginia","Stafford",38.48123,-77.3704,6,"Good",1
+"Washington","Adams",47.12,-118.3819,15.4,"Good",30
+"Washington","Asotin",46.425416,-117.060445,57.7,"Moderate",23
+"Washington","Benton",46.204582,-119.243743,30.5,"Good",31
+"Washington","Chelan",47.334444,-120.095556,43.3,"Good",31
+"Washington","Clallam",48.006295,-122.973953,39.6,"Good",32
+"Washington","Clark",45.64336,-122.58737,32.9,"Good",31
+"Washington","Columbia",46.318,-117.985,34.8,"Good",59
+"Washington","Cowlitz",46.139444,-122.961944,23.4,"Good",31
+"Washington","Franklin",46.5754,-119.0021,22.3,"Good",31
+"Washington","Garfield",46.474438,-117.614764,17.4,"Good",31
+"Washington","Grant",47.241153,-119.847824,24.8,"Good",31
+"Washington","Grays Harbor",46.97228,-123.83173,24.4,"Good",31
+"Washington","Jefferson",48.12919,-122.77897,19.7,"Good",31
+"Washington","King",47.386111,-122.230278,43.9,"Good",32
+"Washington","Kitsap",47.592675,-122.627397,24.5,"Good",31
+"Washington","Kittitas",47.399815,-121.427096,39,"Good",31
+"Washington","Lewis",46.624184,-121.388064,26.5,"Good",31
+"Washington","Mason",47.21355,-123.10081,27.2,"Good",31
+"Washington","Okanogan",48.354124,-120.105116,67.4,"Moderate",31
+"Washington","Pend Oreille",48.181952,-117.053102,37.2,"Good",31
+"Washington","Pierce",47.14,-122.3003,43.8,"Good",31
+"Washington","Skagit",48.4102,-122.3376,21.7,"Good",28
+"Washington","Snohomish",48.054315,-122.171529,49.9,"Good",31
+"Washington","Spokane",47.69978,-117.42635,37.5,"Good",31
+"Washington","Stevens",48.544448,-117.903425,52.2,"Moderate",31
+"Washington","Thurston",47.029396,-122.821548,24.9,"Good",30
+"Washington","Walla Walla",46.199901,-119.008329,25,"Good",31
+"Washington","Whatcom",48.73142,-121.065815,18.8,"Good",31
+"Washington","Whitman",47.23136,-117.36856,15.9,"Good",31
+"Washington","Yakima",46.37543,-120.72932,57.8,"Moderate",31
+"West Virginia","Berkeley",39.448105,-77.963845,39.4,"Good",31
+"West Virginia","Brooke",40.240877,-80.65033,17.3,"Good",90
+"West Virginia","Cabell",38.410242,-82.432436,38.3,"Good",31
+"West Virginia","Gilmer",38.8795,-80.8477,27.6,"Good",59
+"West Virginia","Greenbrier",37.908533,-80.632633,39.4,"Good",31
+"West Virginia","Hancock",40.618353,-80.540616,18.1,"Good",90
+"West Virginia","Kanawha",38.366183,-81.693717,39.2,"Good",91
+"West Virginia","Marshall",39.915961,-80.733858,49,"Moderate",89
+"West Virginia","Mason",38.95649,-82.08866,3.8,"Good",59
+"West Virginia","Monongalia",39.649367,-79.920867,15.6,"Good",89
+"West Virginia","Ohio",40.114876,-80.700972,39.9,"Good",31
+"West Virginia","Tucker",39.0905,-79.6617,31.8,"Good",59
+"West Virginia","Wood",39.323533,-81.552367,16.3,"Good",90
+"Wisconsin","Dane",43.0733,-89.4358,35.8,"Good",5
+"Wisconsin","Dodge",43.466111,-88.621111,39.5,"Good",11
+"Wisconsin","Milwaukee",43.1818,-87.901,41.5,"Good",10
+"Wisconsin","Taylor",45.2066,-90.5969,31.8,"Good",59
+"Wisconsin","Waukesha",43.020075,-88.21507,39.4,"Good",5
+"Wyoming","Albany",41.3642,-106.2399,42.5,"Good",59
+"Wyoming","Campbell",44.295496,-105.368761,34.3,"Good",89
+"Wyoming","Sublette",42.9288,-109.788,42.9,"Good",90
+"Wyoming","Sweetwater",41.76306,-108.73444,17.1,"Good",90
+"Wyoming","Teton",44.565217,-110.400996,38,"Good",60
