@@ -21,13 +21,13 @@ function(input, output) {
                               words <- gsub(".", "", words, fixed = TRUE)
                               paste( words[ !words %in% removed_words], collapse = " ")
                             })
+  #This code created list of words that will show up on the wordcloud
+    
   
-    
-    
     wordcloud(kept_words, 
               colors = brewer.pal(8, "Dark2"),
               max.words = input$max_words
               )
-  }, height = 480)
+  }, height = 600)
 }
-
+#this code generates the wordcloud
