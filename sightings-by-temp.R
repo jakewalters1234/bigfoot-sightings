@@ -22,7 +22,7 @@ high_temp_summary <- bigfoot_data %>%
 # create bar plot
 ggplot(high_temp_summary, aes(x = high_temp_bin, y = n))           +
   
-  geom_col(fill = "steelblue", color = "black")                    +
+  geom_col(fill = "#0047AB", color = "black")                      +
   
   labs(title =     "Bigfoot Sightings by High Temperature Range",
        x     =     "Temperature Range (°F)",
@@ -30,18 +30,21 @@ ggplot(high_temp_summary, aes(x = high_temp_bin, y = n))           +
   
   theme_minimal()                                                  +
   
-  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+  theme(axis.text.x = element_text(angle = 45, hjust = 1), panel.background = element_rect(fill = "#F0FFFF"), 
+        plot.background = element_rect(fill = "#F0FFFF"))
 
 # or create histogram
 ggplot(bigfoot_data, aes(x = temperature_high))                      +
   
-  geom_histogram(binwidth = 20, fill = "steelblue", color = "black") +
+  geom_histogram(binwidth = 20, fill = "#0047AB", color = "black")   +
   
 labs(title = "Bigfoot Sightings by High Temperature Range",
      x = "Temperature (°F)",
      y = "Number of Sightings")                                      +
   
-  theme_minimal()
+  theme_minimal()                                                    +
+  theme( panel.background = element_rect(fill = "#F0FFFF"), 
+         plot.background = element_rect(fill  = "#F0FFFF"))
 
 
 
@@ -95,7 +98,8 @@ ggplot(temp_summary, aes(x = temp_bin, y = n, fill = temp_type))    +
   
   theme_minimal()                                                   +
   
-  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+  theme(axis.text.x = element_text(angle = 45, hjust = 1), panel.background = element_rect(fill = "#F0FFFF"), 
+        plot.background = element_rect(fill = "#F0FFFF"))
 
 
 # or do a histogram
@@ -113,7 +117,9 @@ ggplot(bigfoot_sightings_by_temperature, aes(x = temperature, fill = temp_type))
        y        =   "Number of Sightings"             ,
        fill     =   "Temperature Type")                                            +
   
-  theme_minimal()
+  theme_minimal()                                                                  +
+  theme(panel.background = element_rect(fill = "#F0FFFF"), 
+        plot.background = element_rect(fill = "#F0FFFF"))
 
 
 # or use facets
