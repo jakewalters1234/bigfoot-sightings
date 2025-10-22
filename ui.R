@@ -1,6 +1,7 @@
 library(shiny)
 library(shinythemes)
 
+
 navbarPage(
    "Select a Page to Explore!", # Title of the navigation bar
   tabPanel(
@@ -9,7 +10,41 @@ navbarPage(
       img(src = "bigfoot.png", width = "600px"),
       h1("Welcome to Bigfoot Sightings"),
       p("Have you ever wondered where Bigfoot has been found? 
-        Want to know where to look next? Well, you've come to the right place!")
+        Want to know where to look next? Well, you've come to the right place!"),
+      tags$head(
+        tags$style(HTML("
+      @keyframes slide {
+        0% {
+          left: -100px);
+        }
+        100% {
+          left: 100%;
+        }
+      }
+      
+      #moving-image {
+        position: fixed;
+        top: 50%;
+        left: -100px;
+        animation: slide 8s ease-in-out forwards;
+        z-index: 9999;
+      }
+    "))
+      ),
+      
+      
+      tags$audio(src = "growl-and-roar-102417.mp3", 
+                 autoplay = "autoplay",
+                 type = "audio/mpeg"),
+      
+      
+      tags$img(id = "moving-image", 
+               src = "bigfoot-image.webp",
+               width = "300px"),
+      
+    
+    # website: https://pixabay.com/sound-effects/search/bigfoot/
+    
     )
 
     
