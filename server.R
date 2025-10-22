@@ -31,3 +31,8 @@ function(input, output) {
   }, height = 600)
 }
 #this code generates the wordcloud
+
+
+
+
+
