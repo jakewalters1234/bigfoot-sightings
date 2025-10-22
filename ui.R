@@ -18,7 +18,7 @@ navbarPage(
   tabPanel("WordCloud", 
            fluidPage(
              h2("WordCloud of Words Used to Describe BigFoot Sightings"),
-             shinythemes::themeSelector(),
+             theme = shinytheme("darkly"),
              plotOutput("WordCloud", height = "auto"),
              
              sidebarLayout(
