@@ -26,7 +26,7 @@ navbarPage(
         position: fixed;
         top: 50%;
         left: -100px;
-        animation: slide 8s ease-in-out forwards;
+        animation: slide 3.6s ease-in-out forwards;
         z-index: 9999;
       }
     "))
