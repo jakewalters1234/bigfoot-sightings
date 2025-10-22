@@ -7,8 +7,9 @@ navbarPage(
     "Home Page", 
     fluidPage(
       img(src = "bigfoot.png", width = "600px"),
-      h1("Welcome to My App"),
-      p("This is the main landing page.")
+      h1("Welcome to Bigfoot Sightings"),
+      p("Have you ever wondered where Bigfoot has been found? 
+        Want to know where to look next? Well, you've come to the right place!")
     )
 
     
