@@ -5,6 +5,7 @@ library(tm)
 library(memoise)
 library(tidyverse)
 library(stringr)
+library(ggplot2)
 
 
 
@@ -29,5 +30,25 @@ function(input, output) {
               max.words = input$max_words
               )
   }, height = 600)
+ 
+  
+  
+  
+   output$selectedPlot <- renderPlot({
+    if(input$plotChoice == "Sightings by Season") {
+      source("Sightings-per-season-bar.R")
+      season_bar
+    } else if(input$plotChoice == "Sightings by State") {
+      source("sightings-per-state.R")
+      state_bar
+    } else if(input$plotChoice == "Sightings by Temperature") {
+      source("sightings-by-temp.R")
+    }
+  })
 }
 #this code generates the wordcloud
+
+
+ 
+  
+

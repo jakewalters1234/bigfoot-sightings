@@ -41,7 +41,10 @@ navbarPage(
   
   tabPanel("Visualizations for Bigfoot Sightings",
            fluidPage(
-             h3("Multiple Visualizations of Bigfoot Sightings")
+             h3("Multiple Visualizations of Bigfoot Sightings"), 
+             selectInput("plotChoice" , "Choose a Plot:",
+                         choices = c("Sightings by Season", "Sightings by State", "Sightings by Temperature")),
+             plotOutput("selectedPlot")
            )#fluidpage for visualizations page
     
   )#Tabpanel for visualizations page
