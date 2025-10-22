@@ -14,6 +14,14 @@ columns_to_keep <- c(lat_cols, lon_cols, county_col)
 # Filter the dataframe
 df_filtered <- df[, columns_to_keep]
 
+# Remove rows with any NA values
+df_filtered <- na.omit(df_filtered)
+
+# Remove specific problematic rows (invalid coordinates)
+df_filtered <- df_filtered[!(df_filtered[, lat_cols[1]] == 46.19614 & df_filtered[, lon_cols[1]] == -141.006), ]
+df_filtered <- df_filtered[!(df_filtered[, lat_cols[1]] == 46.19328 & df_filtered[, lon_cols[1]] == -167.131), ]
+df_filtered <- df_filtered[!(df_filtered[, lat_cols[1]] == 47.57549 & df_filtered[, lon_cols[1]] == -144.0265), ]
+
 # Save to a new CSV file
 write.csv(df_filtered, 'filtered_bigfoot_data_with_county.csv', row.names = FALSE)
 
@@ -21,7 +29,6 @@ write.csv(df_filtered, 'filtered_bigfoot_data_with_county.csv', row.names = FALS
 cat("Original columns:", names(df), "\n")
 cat("Kept columns:", columns_to_keep, "\n")
 cat("Dimensions:", dim(df_filtered), "\n")
-
 
 # Install packages if needed (run once)
 # install.packages("leaflet")
