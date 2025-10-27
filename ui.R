@@ -1,10 +1,9 @@
 library(shiny)
 library(shinythemes)
-library(leaflet)
+
 
 navbarPage(
-  "Select a Page to Explore!",
-  
+  "Select a Page to Explore!", # Title of the navigation bar
   tabPanel(
     "Home Page", 
     fluidPage(
@@ -16,7 +15,7 @@ navbarPage(
         tags$style(HTML("
       @keyframes slide {
         0% {
-          left: -100px;
+          left: -100px);
         }
         100% {
           left: 100%;
@@ -27,26 +26,36 @@ navbarPage(
         position: fixed;
         top: 50%;
         left: -100px;
-        animation: slide 8s ease-in-out forwards;
+        animation: slide 3.6s ease-in-out forwards;
         z-index: 9999;
       }
     "))
       ),
       
+      
       tags$audio(src = "growl-and-roar-102417.mp3", 
                  autoplay = "autoplay",
                  type = "audio/mpeg"),
       
+      
       tags$img(id = "moving-image", 
                src = "bigfoot-image.webp",
-               width = "300px")
+               width = "300px"),
+      
+      
+      # website: https://pixabay.com/sound-effects/search/bigfoot/
+      
     )
-  ),
+    
+    
+  ), #tabPanel for the main page,
+  # Word cloud for the words most used in the bigfoot sighting reports 
   
   tabPanel("WordCloud", 
            fluidPage(
              h2("WordCloud of Words Used to Describe BigFoot Sightings"),
-             shinythemes::themeSelector(),
+             theme = shinytheme("darkly"),
+             plotOutput("WordCloud", height = "auto"),
              
              sidebarLayout(
                sidebarPanel(
@@ -58,33 +67,21 @@ navbarPage(
                              step = 1)
                ),
                mainPanel(
-                 plotOutput("WordCloud")
-               )
-             )
-           )
-  ),
+                 plotOutput("wordcloud")
+               ) 
+             ), 
+             
+           )#fluidPage
+  ),#tabPanel for the word cloud
   
   tabPanel("Visualizations for Bigfoot Sightings",
            fluidPage(
              h3("Multiple Visualizations of Bigfoot Sightings"), 
-             selectInput("plotChoice", "Choose a Plot:",
+             selectInput("plotChoice" , "Choose a Plot:",
                          choices = c("Sightings by Season", "Sightings by State", "Sightings by Temperature")),
              plotOutput("selectedPlot")
-           )
-  ),
+           )#fluidpage for visualizations page
+           
+  )#Tabpanel for visualizations page
   
-  tabPanel("Maps",
-           fluidPage(
-             tabsetPanel(
-               tabPanel("AQI Map",
-                        br(),
-                        leafletOutput("aqi_map", height = "600px")
-               ),
-               tabPanel("Bigfoot Sightings Map",
-                        br(),
-                        leafletOutput("bigfoot_map", height = "600px")
-               )
-             )
-           )
-  )
-)
+)#navbarPage
