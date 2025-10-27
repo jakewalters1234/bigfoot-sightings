@@ -8,18 +8,18 @@ navbarPage(
   tabPanel(
     "Home Page", 
     fluidPage(
-<<<<<<< HEAD
+
       div(style = "text-align: center;",
         tags$img(src = "bigfoot-landing-page.jpg", width = "900px"),
         tags$h1("Welcome to Bigfoot Sightings"),
         tags$h2("Have you ever wondered where Bigfoot has been found? 
         Want to know where to look next? Well, you've come to the right place!")), 
-=======
+
       img(src = "bigfoot.png", width = "600px"),
       h1("Welcome to Bigfoot Sightings"),
       p("Have you ever wondered where Bigfoot has been found? 
         Want to know where to look next? Well, you've come to the right place!"),
->>>>>>> 88f8ff266ceb4f3761b11aa9daa8ad14518353d0
+
       tags$head(
         tags$style(HTML("
       @keyframes slide {
