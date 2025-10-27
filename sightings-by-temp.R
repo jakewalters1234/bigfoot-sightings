@@ -82,7 +82,7 @@ temp_summary <- bigfoot_sightings_by_temperature %>%
   count(temp_bin, temp_type)
 
 # create grouped bar plot
-ggplot(temp_summary, aes(x = temp_bin, y = n, fill = temp_type))    +
+tempgrouped_bar <- ggplot(temp_summary, aes(x = temp_bin, y = n, fill = temp_type))    +
   
   geom_col(position = "dodge")                                      +
   

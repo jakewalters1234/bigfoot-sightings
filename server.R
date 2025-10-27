@@ -43,6 +43,7 @@ function(input, output) {
       state_bar
     } else if(input$plotChoice == "Sightings by Temperature") {
       source("sightings-by-temp.R")
+      tempgrouped_bar
     }
   })
 }
