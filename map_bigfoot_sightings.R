@@ -25,7 +25,7 @@ df_filtered <- df_filtered[!(df_filtered[, lat_cols[1]] == 47.57549 & df_filtere
 # Save to a new CSV file
 write.csv(df_filtered, 'filtered_bigfoot_data_with_county.csv', row.names = FALSE)
 
-# Print information
+# Print information 
 cat("Original columns:", names(df), "\n")
 cat("Kept columns:", columns_to_keep, "\n")
 cat("Dimensions:", dim(df_filtered), "\n")
