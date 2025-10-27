@@ -2,10 +2,10 @@ library(tidyverse)
 library(ggplot2)
 
 bigfoot_data <- read.csv("bigfoot_data.csv")
- bigfoot_data %>%
+bigfoot_season <- bigfoot_data %>%
   count(season)
 
-season_bar <- ggplot(bigfoot_data, aes(season)) + geom_bar(fill = "#0047AB")          + 
+season_bar <- ggplot(bigfoot_season, aes(season, n)) + geom_col(fill = "#0047AB")          + 
   labs(title = "Number of Bigfoot Sightings Per Season")                + 
   xlab("Season") + ylab("Sightings")                                    +
   theme(
@@ -14,4 +14,5 @@ season_bar <- ggplot(bigfoot_data, aes(season)) + geom_bar(fill = "#0047AB")    
     axis.title = element_text(size = 16),
     panel.background = element_rect(fill = "#F0FFFF"), 
         plot.background = element_rect(fill = "#F0FFFF"))
+
 
