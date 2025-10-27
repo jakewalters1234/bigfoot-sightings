@@ -7,10 +7,11 @@ navbarPage(
   tabPanel(
     "Home Page", 
     fluidPage(
-      img(src = "bigfoot.png", width = "600px"),
-      h1("Welcome to Bigfoot Sightings"),
-      p("Have you ever wondered where Bigfoot has been found? 
-        Want to know where to look next? Well, you've come to the right place!"),
+      div(style = "text-align: center;",
+        tags$img(src = "bigfoot-landing-page.jpg", width = "900px"),
+        tags$h1("Welcome to Bigfoot Sightings"),
+        tags$p("Have you ever wondered where Bigfoot has been found? 
+        Want to know where to look next? Well, you've come to the right place!")), 
       tags$head(
         tags$style(HTML("
       @keyframes slide {
@@ -39,11 +40,12 @@ navbarPage(
       
       
       tags$img(id = "moving-image", 
-               src = "bigfoot-image.webp",
+               src = "new-bigfoot-image-removebg-preview.png",
                width = "300px"),
       
     
-    # website: https://pixabay.com/sound-effects/search/bigfoot/
+    # websites: https://pixabay.com/sound-effects/search/bigfoot/, https://www.shutterstock.com/search/big-foot-creature
+    # https://en.wikipedia.org/wiki/Bigfoot
     
     )
 
