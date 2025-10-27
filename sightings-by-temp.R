@@ -105,7 +105,9 @@ tempgrouped_bar <- ggplot(temp_summary, aes(x = temp_bin, y = n, fill = temp_typ
         legend.title = element_text(size = 16),
         legend.text = element_text(size = 14),
         panel.background = element_rect(fill = "#F0FFFF"), 
-        plot.background = element_rect(fill = "#F0FFFF"))
+        plot.background = element_rect(fill = "#F0FFFF"),
+        panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank())
 
 
 # or do a histogram
