@@ -9,15 +9,19 @@ navbarPage(
     fluidPage(
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> a2bf4857089b1d725a4d17b9b416b08d998febf5
+=======
+>>>>>>> 545e58d567f83d2cbcd2af24f8c94e529570262b
       div(style = "text-align: center;",
         tags$img(src = "bigfoot-landing-page.jpg", width = "900px"),
         tags$h1("Welcome to Bigfoot Sightings"),
         tags$h2("Have you ever wondered where Bigfoot has been found? 
         Want to know where to look next? Well, you've come to the right place!")), 
 
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> ec364df1bebe099f9caebf7cc37fccaf1ac9d10d
@@ -34,6 +38,8 @@ navbarPage(
 =======
 >>>>>>> a2bf4857089b1d725a4d17b9b416b08d998febf5
 >>>>>>> ec364df1bebe099f9caebf7cc37fccaf1ac9d10d
+=======
+>>>>>>> 545e58d567f83d2cbcd2af24f8c94e529570262b
       tags$head(
         tags$style(HTML("
       @keyframes slide {
@@ -62,12 +68,13 @@ navbarPage(
       
       
       tags$img(id = "moving-image", 
-               src = "bigfoot-image.webp",
+               src = "new-bigfoot-image-removebg-preview.png",
                width = "300px"),
       
       
       # website: https://pixabay.com/sound-effects/search/bigfoot/
-      
+      # https://en.wikipedia.org/wiki/Bigfoot
+      # https://www.shutterstock.com/search/big-foot-creature
     )
     
     
